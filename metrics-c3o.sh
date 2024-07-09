@@ -1,3 +1,5 @@
+## after next-token generation for prediction, before data collation to csv
+
 #!/bin/bash
 
 # Define color codes
