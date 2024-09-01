@@ -1,3 +1,5 @@
+## run as: python merge_and_visualize_llm_metrics.py "*_metrics.csv" results-1
+
 #!/bin/bash
 
 #SBATCH --mem=90GB
