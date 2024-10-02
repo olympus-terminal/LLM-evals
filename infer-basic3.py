@@ -34,7 +34,6 @@ if __name__ == "__main__":
     
     # Load the model from the checkpoint
     model = AutoModelForCausalLM.from_pretrained(checkpoint_path).to('cuda')
-    
     # Ensure the model's config is aligned with the tokenizer
     model.config.pad_token_id = tokenizer.pad_token_id
 
